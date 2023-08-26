@@ -1,1 +1,29 @@
 Hello First git push
+____________________________________
+Second push:
+Instruction for pushing files
+1. on git bash: create a folder and navigate to the folder
+:using> ``` mkdir "folder/directory name" ``` and ``` cd "folder name" ```
+
+2. initialize the folder
+:using ``` git init ```
+ 
+3. add the file to the current initialized dir./ or create a new file if no file exists
+:using > ``` git add ""filename" ```
+
+4. Commit the changes to the current directory
+uding> ``` git commit -m "Preferred commit text"
+
+5. Link git to the github account(NB: Github username is needed here)
+:using> ``` git config --global user.username ""github username"
+
+6. Create a new repo on github and copy the *Http link*/ get the repo link for existing repo
+:> ### navigate to your guthub dashboard###
+
+7. Link the remote and local repos
+:using > ``` git remote add origin "http link copied" ```
+8. push file to remote repo
+:using> ``` git push -u origin main ``` ###On the main branch###
+: or > ``` git push origin master``` 
+
+NB: i just went thorough these steps to get this done.. weldone
